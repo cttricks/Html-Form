@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Form</title>
+<!-- CSS -->
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	body{
+		margin: 25px 55px;
+	}
+	.myform input{
+		padding: 10px 15px;
+		font-size: 16px;
+		margin: 5px 0px;
+	}
+	</style>
+</head>
+<body>
+<!-- Static- Please don't do anything here-->
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://www.google.com/';}"></iframe>
+<!--My Form-->
+<h1>Test Form1</h1>
+<p>Store the Custom Html Form Data to the Spreadsheet | Without Complex Coding</p>
+<p><a href="https://youtu.be/WevO_PDB7E0" target="_blank">Click here</a> to watch tutorial video.</p>
+<br />
+
+<!-- FORM 
+1. Replace # of form action with your google form s url
+2. Replace # of name with entry code.
+
+Note : Now a days google forms entry codes are not availabe on source so for that kindly generate a pre-filled link in order to get the entry codes.
+-->
+<form action="#" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+	<input type="text" placeholder="Your Name" name="#"><br/>
+	<input type="text" placeholder="Email ID" name="#"><br/>
+	<input type="text" placeholder="Comment" name="#"><br/>
+	<input type="submit" value="Submit">
+</form>
+
+<!--ABOUT CT-->
+<br>
+<br>
+<p>Hey there!, Feel free to use this code for your learning and work. If you have any query or suggestion then please let me know. more at <a href="https://cttricks.com/" target="_blank">cttricks.com</a></p>
+</body>
+</html>
