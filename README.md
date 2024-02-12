@@ -1,5 +1,5 @@
 # Html-Form
-In this sample if code i'll show you how to store the custom Html form data to the Google Spreadsheet | Without Complex Coding.
+In this prject i'll show you how to store the custom Html form data to the Google Spreadsheet | Without Complex Coding.
 
 - Title : TestForm1
 - Current Version : 1.0.1 [beta]
